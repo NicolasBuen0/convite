@@ -1,6 +1,7 @@
 .home{
     /* padding-top: 105px; */
-    padding-top: 90px;
+    padding-top: 80px;
+  
 }
 
 .home::after{
@@ -36,35 +37,16 @@
 }
 
 .nomes{
-    padding-top: 50px;
+    padding-top:60px;
     color: #B0886F;
 }
+.informacoes{
+    position: relative;
 
-.informacoes::after{
-    content: "";
-    display: block;
-    width: 100px;
-    height: 50px;
-    bottom: 0;
-    background-image: url("../img/home-flores-e-b.png");
-    position: absolute;
 }
-
-.informacoes::before{
-    content: "";
-    display: block;
-    width: 51px;
-    height: 51px;
-    right: 0;
-    bottom: 0;
-    background-image: url("../img/home-flores-d-b.png");
-    position: absolute;
-}
-
-
 
 .horario{
-    padding-top: 20px;
+    padding-top: 10px;
     color: #434A34;
 }
 
@@ -78,6 +60,7 @@
 
 .links{
     padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: space-around;
