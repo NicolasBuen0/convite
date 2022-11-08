@@ -38,6 +38,7 @@
 
 .nomes{
     padding-top:60px;
+    padding-bottom:60px;
     color: #B0886F;
 }
 .informacoes{
@@ -46,21 +47,19 @@
 }
 
 .horario{
-    padding-top: 10px;
+  /*   padding-top: 10px; */
     color: #434A34;
 }
 
-.size{
-    font: 300 1.2rem "Roboto Slab", sans-serif;
-}
+
 
 .horario p:last-child{
     padding-top: 5px;
 }
 
 .links{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
