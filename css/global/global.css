@@ -68,7 +68,6 @@ a {
     z-index: 1;
   }
   
-  /* 6 CSS recomendado para a navegação */
   [data-slide-nav] {
     display: block;
     justify-content: center;
